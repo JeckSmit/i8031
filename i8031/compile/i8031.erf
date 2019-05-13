@@ -1,0 +1,14 @@
+MESSAGE "Pass 1. Scanning modules hierarchy."
+MESSAGE_SP VCP2113 "Module \$root found in current working library."
+BEGINPROGRESS Compiling...
+UPDATEPROGRESS 35
+MESSAGE_SP VCP2113 "Module PIC16C57 found in current working library."
+MESSAGE "Pass 2. Processing instantiations."
+UPDATEPROGRESS 45
+MESSAGE "Pass 3. Processing behavioral statements."
+UPDATEPROGRESS 80
+MESSAGE "ELB/DAG code generating."
+MESSAGE_SP VCP2113 "Module \$root found in current working library."
+MESSAGE_SP VCP2113 "Module tb_PIC16C57_v found in current working library."
+ERROR VCP6251 "Error in SLP repository: Incorrect SLP repository library version. Library: i8031 must be recompiled. Use adel to clear your library and compile your sources again."
+FAILURE "Compile failure 1 Errors 0 Warnings  Analysis time: 0[s]."

@@ -1,0 +1,1 @@
+ -u "C:\Aldec\Active-HDL 9.1\bin/systf.dll" -v2k5  "C:\Users\Кристина\Desktop\LAVRYNENKO\8031\i8031\src\TestBench\tb_i8031.v"  -cs  -g 5  -r -li "C:\Users\Кристина\Desktop\LAVRYNENKO\8031\i8031\compile\i8031.epr" -p "C:\Users\Кристина\Desktop\LAVRYNENKO\8031\i8031" 

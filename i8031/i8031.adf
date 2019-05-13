@@ -1,0 +1,81 @@
+[Project]
+Current Flow=Multivendor
+VCS=0
+version=3
+Current Config=compile
+
+[Configurations]
+compile=i8031
+
+[Library]
+i8031=.\i8031.LIB
+
+[$LibMap$]
+i8031=.
+Active_lib=
+
+[Settings]
+FLOW_TYPE=HDL
+LANGUAGE=VHDL
+REFRESH_FLOW=1
+SYNTH_TOOL=<none>
+IMPL_TOOL=<none>
+CSYNTH_TOOL=<none>
+PHYSSYNTH_TOOL=<none>
+FLOWTOOLS=ONLY_IMPL
+ON_SERVERFARM_SYNTH=0
+ON_SERVERFARM_IMPL=0
+ON_SERVERFARM_SIM=0
+DVM_DISPLAY=NO
+FAMILY=
+AccessRead=0
+AccessReadWrite=0
+AccessACCB=0
+AccessACCR=0
+AccessReadWriteSLP=0
+AccessReadTopLevel=0
+DisableC=0
+
+[IMPLEMENTATION]
+UCF=
+
+[Groups]
+TestBench=1
+
+[HierarchyViewer]
+SortInfo=u
+HierarchyInformation=
+ShowHide=ShowTopLevel
+Selected=
+
+[LocalVhdlSets]
+CompileWithDebug=1
+
+[LocalVerilogSets]
+EnableDebug=1
+EnableSLP=0
+
+[Files]
+/wave.asdb=-1
+/test.asdb=-1
+/..\test.awc=-1
+/test2.asdb=-1
+/..\test2.awc=-1
+/i8031.ucf=-1
+/i8031.v=-1
+TestBench/tb_i8031.v=-1
+TestBench/tb_i8031_runtest.do=-1
+TestBench/tb_i8031_settings.txt=-1
+
+[Files.Data]
+.\src\wave.asdb=Accelerated Waveform File
+.\src\test.asdb=Accelerated Waveform File
+.\test.awc=Accelerated Waveform Configuration
+.\src\test2.asdb=Accelerated Waveform File
+.\test2.awc=Accelerated Waveform Configuration
+.\src\i8031.ucf=External File
+.\src\i8031.v=Verilog Source Code
+.\src\TestBench\tb_i8031.v=Verilog Source Code
+.\src\TestBench\tb_i8031_runtest.do=Macro
+.\src\TestBench\tb_i8031_settings.txt=Text File
+

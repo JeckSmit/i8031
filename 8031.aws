@@ -1,0 +1,12 @@
+[Version]
+Version=7.3
+[Designs]
+i8031=.\i8031\i8031.adf
+[Expand]
+i8031=1
+[Browser]
+sort=order
+mode=none
+[Order]
+order=1
+macro=
